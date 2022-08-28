@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* interval between updates (in ms) */
-const unsigned int interval = 1000;
+const unsigned int interval = 500;
 
 /* text to show if no value can be retrieved */
 static const char unknown_str[] = "n/a";
@@ -68,8 +68,10 @@ static const struct arg args[] = {
     //{ netspeed_rx, "%sB/s  ", "enp0s3" },
 	{ cpu_perc, 	    "[CPU  %s%%] ", 	NULL	},
 	{ ram_perc,     	"[RAM  %s%%] ",	NULL	},
-	{ netspeed_rx,	    "[ %sB/s ",		"wlan0"	},
+    { wifi_essid,       "[ %s ",           "wlan0" },
+	{ netspeed_rx,	    "%sB/s ",		    "wlan0"	},
 	{ netspeed_tx,      "%sB/s] " ,		    "wlan0" },
+    { run_command,      "[ %s%%] ",        "~/.scripts/volume.sh"},
 	{ battery_perc,     "[ %s%% ",		    "BAT1"	},
     { battery_state,    "%s] ",             "BAT1"  },
 	{ datetime, 	    "%s",           	"%a %b %d %r" },
