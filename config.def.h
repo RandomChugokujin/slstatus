@@ -67,7 +67,7 @@ static const struct arg args[] = {
 	//{ wifi_perc, "W: (%3s%% on ", "wlp8s0" },
     //{ netspeed_rx, "%sB/s  ", "enp0s3" },
 	{ cpu_perc, 	    "[CPU  %s%%] ", 	NULL	},
-	{ ram_perc,     	"[RAM  %s%%] ",	NULL	},
+	{ ram_perc,     	"[RAM  %s%%] ",	NULL	},
     { wifi_essid,       "[ %s ",           "wlan0" },
 	{ netspeed_rx,	    "%sB/s ",		    "wlan0"	},
 	{ netspeed_tx,      "%sB/s] " ,		    "wlan0" },
