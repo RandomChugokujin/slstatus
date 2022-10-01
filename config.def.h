@@ -68,10 +68,10 @@ static const struct arg args[] = {
     //{ netspeed_rx, "%sB/s  ", "enp0s3" },
 	{ cpu_perc, 	    "[CPU  %s%%] ", 	NULL	},
     { ram_used,     	"[RAM  %s/15Gi",	NULL	},
-    { ram_perc,         " (%s%%) ] ",       NULL},
+    { ram_perc,         " (%s%%)] ",        NULL    },
     { wifi_essid,       "[ %s ",           "wlp5s0" },
 	{ netspeed_rx,	    "%sB/s ",		    "wlp5s0"	},
 	{ netspeed_tx,      "%sB/s] " ,		    "wlp5s0" },
-    { run_command,      "[ %s%%] ",        "~/.scripts/volume.sh"},
+    { run_command,      "[ %s] ",        "~/.scripts/volume.sh"},
 	{ datetime, 	    "%s",           	"%a %b %d %r" },
 };
