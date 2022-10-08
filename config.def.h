@@ -72,7 +72,7 @@ static const struct arg args[] = {
     { wifi_essid,       "[ %s ",           "wlan0" },
 	{ netspeed_rx,	    "%sB/s ",		    "wlan0"	},
 	{ netspeed_tx,      "%sB/s] " ,		    "wlan0" },
-    { run_command,      "[ %s%%] ",        "~/.scripts/volume.sh"},
+    { run_command,      "[ %s] ",        "~/.scripts/volume.sh"},
     { run_command,      "[ %s] ",          "~/.scripts/brightness.sh"},
 	{ battery_perc,     "[ %s%% ",		    "BAT1"	},
     { battery_state,    "%s] ",             "BAT1"  },
