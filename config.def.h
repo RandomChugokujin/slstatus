@@ -68,8 +68,10 @@ static const struct arg args[] = {
     //{ netspeed_rx, "%sB/s  ", "enp0s3" },
 	{ cpu_perc, 	    "[ %s%%]", 	NULL	},
     { ram_used,     	"[ %s/31Gi]",	NULL	},
-	{ netspeed_rx,	    "[ %sB/s ",		    "eno1"	},
+	{ netspeed_rx,	    "[󰈀 %sB/s ",		    "eno1"	},
 	{ netspeed_tx,      "%sB/s]" ,		    "eno1" },
+	/*{ netspeed_rx,	    "[ %sB/s ",		    "wlp5s0"	},*/
+	/*{ netspeed_tx,      "%sB/s]" ,		    "wlp5s0" },*/
     { run_command,      "[ %s] ",        "~/.scripts/volume.sh"},
 	{ datetime, 	    "%s",           	"%a %b %d %r" },
 };
